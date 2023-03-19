@@ -3,7 +3,6 @@ import {
   FaLocationArrow,
   FaMobileAlt,
   FaEnvelope,
-  FaMobile,
 } from "react-icons/fa";
 import Payment from "../../assets/payments.png";
 
@@ -57,6 +56,7 @@ const Footer = () => {
           <div className="text">Contact Us</div> 
         </div>
       </div>
+
       <div className="bottom-bar">
         <div className="bottom-bar-content">
             <div className="text">
