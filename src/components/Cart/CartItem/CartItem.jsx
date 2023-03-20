@@ -9,6 +9,7 @@ const CartItem = () => {
                 <div className="img-container">
                     <img src={prod} alt="" />
                 </div>
+
                 <div className="prod-details">
                     <span className="name">Product Name</span>
                     <MdClose className="close-btn"/>
@@ -23,6 +24,7 @@ const CartItem = () => {
                         <span className="highlight">&#8377;1234</span>
                     </div>
                 </div>
+                
             </div>
         </div>
     );
