@@ -9,8 +9,13 @@ import {
   FaCartPlus,
 } from "react-icons/fa";
 import Prod from "../../assets/products/earbuds-prod-1.webp";
+import useFetch from "../hooks/useFetch";
+import {useParams} from "react-router-dom";
 
 const SingleProduct = () => {
+  const {id} = useParams(); 
+  const {data} = useFetch(`/api/products?populate=*&[filters][id]=${id}`)
+  
   return (
     <div className="single-product-main-content">
       <div className="layout">
